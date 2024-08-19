@@ -73,6 +73,19 @@
   font-size: 36px;
   border-radius: 10px 10px 0px 0px;
 }
+.review .backlog_first_div {
+    width: 280px;
+    height: 100px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-top: 8px;
+    display: flex;
+    align-items: start;
+     justify-content: space-around;
+    flex-direction: column;
+    margin-left: 10px;
+    background-color: #fff;
+  }
 .box_1 .backlog_first_div {
   width: 280px;
   height: 100px;
@@ -98,3 +111,38 @@
     background:grey;
     margin-left: 20px;
 }
+.backlog_first_divs{
+    width: 280px;
+    height: 150px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-top: 8px;
+    display: flex;
+    align-items: start;
+     justify-content: space-around;
+    flex-direction: column;
+    margin-left: 10px;
+    background-color: #fff;
+    margin-top: 20px;
+  }
+  .backlog_first_divs .first_p{
+    width: 240px;
+    height: 30px;
+    border-radius: 20px;
+    background:grey;
+    margin-left: 20px;
+  }
+  .backlog_first_divs .second_p{
+    width: 170px;
+    height: 30px;
+    border-radius: 20px;
+    background:grey;
+    margin-left: 20px;
+  }
+  .backlog_first_divs .nth_p{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    background:grey;
+    margin-left: 20px;
+  }
