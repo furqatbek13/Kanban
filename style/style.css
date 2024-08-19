@@ -63,7 +63,7 @@
 }
 .box_1 h2 {
   width: 300px;
-  height: 50px;
+  height: 70px;
   background: red;
   display: flex;
   align-items: center;
@@ -75,5 +75,26 @@
 }
 .box_1 .backlog_first_div {
   width: 280px;
-  height: 70px;
+  height: 100px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-top: 8px;
+  display: flex;
+  align-items: start;
+   justify-content: space-around;
+  flex-direction: column;
+}
+.backlog_first_div .first_p{
+    width: 160px;
+    height: 30px;
+    border-radius: 20px;
+    background:grey;
+    margin-left: 20px;
+}
+.backlog_first_div .second_p{
+    width: 230px;
+    height: 30px;
+    border-radius: 20px;
+    background:grey;
+    margin-left: 20px;
 }
